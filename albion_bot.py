@@ -3,6 +3,7 @@ from discord.ext import tasks
 import requests
 import json
 import asyncio
+import os
 from datetime import datetime, timezone
 
 # =============================================
