@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 # =============================================
 #   INSTÄLLNINGAR - ÄNDRA DESSA
 # =============================================
-BOT_TOKEN = "MTUxNjU3MjUwMjA4NjY1MjEyNA.G9LnvJ.Q9-xIzLZU0vqbEpd6cDkA-ZwP6nsYiwfrt1Vzk"
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 KANAL_ID = 1516573139155554384
 MIN_SPELARE = 20
 KOLL_INTERVALL_MINUTER = 5
